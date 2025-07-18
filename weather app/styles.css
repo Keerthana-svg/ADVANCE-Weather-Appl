@@ -1,0 +1,103 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+  background-color: #fff8f0;
+  font-family: 'Merriweather', serif;
+  color: #3a2e2e;
+  margin: 0;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('pink.jpg');
+  background-size: cover;         /* Makes the image cover the whole area */
+  background-position: center;    /* Centers the image */
+  background-repeat: no-repeat;   /* Prevents the image from repeating */
+}
+
+
+h1 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin-bottom: 50px;
+  color: #080808;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #050200;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  border: 2px solid #190b01;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  color: #3a2e2e;
+  font-weight: 500;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #e07b39;
+}
+
+button {
+  padding: 16px 35px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #1b0c02;
+  color: #fff8f0;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 10px rgba(244, 239, 236, 0.5);
+}
+
+button:hover {
+  background-color: #c2651f;
+  box-shadow: 0 7px 15px rgba(194, 101, 31, 0.7);
+}
+
+#weatherResult {
+  margin-top: 45px;
+  max-width: 350px;
+  background: #fff3e8;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(166, 94, 46, 0.25);
+  text-align: center;
+  color: #3a2e2e;
+  font-weight: 600;
+}
+
+#weatherResult h2 {
+  font-size: 1.9rem;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #0a0400;
+}
+
+#weatherResult p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+#weatherResult img {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 2px 3px rgba(160, 94, 46, 0.3));
+}
+
+
+

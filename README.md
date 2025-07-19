@@ -48,12 +48,7 @@ This Weather App allows users to input a city name and retrieve real-time weathe
 - A modern web browser (Chrome, Firefox, Edge, Safari)  
 - (If applicable) An API key from your chosen weather data provider (e.g., [OpenWeatherMap](https://openweathermap.org/api))
 
-### Steps to Run Locally
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/994d2b02-7fd4-41da-b908-c190f590d4ed" />
 
 
